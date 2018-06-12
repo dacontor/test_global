@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.HomeActivity">
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/listHome"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/white"
+        android:cacheColorHint="@android:color/white"
+        android:divider="@android:color/white"
+        android:dividerHeight="1dp"
+        android:fadingEdge="none"
+        android:fadingEdgeLength="0dp"
+        android:smoothScrollbar="false"
+        android:text="@string/app_name"
+        tools:ignore="RtlHardcoded" />
+
+</FrameLayout>
